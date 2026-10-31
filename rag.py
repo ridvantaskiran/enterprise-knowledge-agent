@@ -12,7 +12,7 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent
 INDEX_PATH = BASE_DIR / "storage" / "knowledge_index.json"
 
-CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-4.1-mini")
+CHAT_MODEL = os.getenv("OPENAI_CHAT_MODEL", "gpt-5-nano")
 EMBEDDING_MODEL = os.getenv(
     "OPENAI_EMBEDDING_MODEL",
     "text-embedding-3-small",
