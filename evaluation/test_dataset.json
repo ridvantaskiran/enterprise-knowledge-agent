@@ -1,0 +1,27 @@
+
+[
+  {
+    "question": "How many days do customers have to request a standard refund?",
+    "relevant_sources": ["refund_policy.md"]
+  },
+  {
+    "question": "What happens when a refund request arrives after 30 days?",
+    "relevant_sources": ["refund_policy.md"]
+  },
+  {
+    "question": "How long does standard shipping take?",
+    "relevant_sources": ["shipping_policy.md"]
+  },
+  {
+    "question": "What should support do if tracking has not updated for 5 business days?",
+    "relevant_sources": ["shipping_policy.md"]
+  },
+  {
+    "question": "What are the rules for storing API keys?",
+    "relevant_sources": ["security_policy.md"]
+  },
+  {
+    "question": "Who approves refund exceptions?",
+    "relevant_sources": ["refund_policy.md"]
+  }
+]
