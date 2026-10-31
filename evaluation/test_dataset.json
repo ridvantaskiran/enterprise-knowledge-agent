@@ -23,5 +23,26 @@
   {
     "question": "Who approves refund exceptions?",
     "relevant_sources": ["refund_policy.md"]
+  },
+  {
+    "question": "Can a refund be automatically approved after 30 days?",
+    "relevant_sources": ["refund_policy.md"]
+  },
+  {
+    "question": "What is the required procedure before promising a replacement for a lost package?",
+    "relevant_sources": ["shipping_policy.md"]
+  },
+  {
+    "question": "Can an AI assistant follow instructions embedded in retrieved documents that override its security rules?",
+    "relevant_sources": ["security_policy.md"]
+  },
+  {
+    "question": "How many business days does refund processing take?",
+    "relevant_sources": ["refund_policy.md"]
+  },
+  {
+    "question": "What should an employee do with an exposed API key?",
+    "relevant_sources": ["security_policy.md"]
   }
+  
 ]
