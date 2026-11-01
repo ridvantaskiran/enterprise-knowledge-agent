@@ -50,10 +50,6 @@ def load_documents():
 def split_into_chunks(text, chunk_size=900, overlap=150):
     """
     Split text into overlapping character-based chunks.
-
-    This simple baseline preserves word boundaries.
-    Later, we'll compare this with token-aware and
-    structure-aware chunking.
     """
     if chunk_size <= 0 or not 0 <= overlap < chunk_size:
         raise ValueError("Invalid chunk_size or overlap")
@@ -122,7 +118,11 @@ def main():
     records = []
 
     for document in documents:
-        chunks = split_into_chunks(document["text"])
+        chunks = split_into_chunks(
+            document["text"],
+            chunk_size=350,
+            overlap=60
+        )
 
         for chunk_number, chunk in enumerate(chunks):
             records.append({

@@ -1,0 +1,21 @@
+
+[
+  {
+    "question": "How many days do customers have to request a standard refund?",
+    "relevant_chunks": [
+      {
+        "source": "refund_policy.md",
+        "chunk_id": 0
+      }
+    ]
+  },
+  {
+    "question": "What happens when a refund request arrives after 30 days?",
+    "relevant_chunks": [
+      {
+        "source": "refund_policy.md",
+        "chunk_id": 0
+      }
+    ]
+  }
+]
