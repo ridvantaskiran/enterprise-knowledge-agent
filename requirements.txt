@@ -1,3 +1,9 @@
 openai
 numpy
 python-dotenv
+langchain
+langchain-openai
+langchain-community
+langchain-classic
+faiss-cpu
+langchain-text-splitters
